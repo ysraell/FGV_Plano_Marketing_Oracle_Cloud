@@ -1,0 +1,169 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% How to use writeLaTeX: 
+%
+% You edit the source code here on the left, and the preview on the
+% right shows you the result within a few seconds.
+%
+% Bookmark this page and share the URL with your co-authors. They can
+% edit at the same time!
+%
+% You can upload figures, bibliographies, custom classes and
+% styles using the files menu.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper]{article}
+
+\usepackage{renote-template}
+\usepackage{graphicx,url}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}  
+\usepackage{longtable}
+\usepackage[none]{hyphenat}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage[alf, bibjustif, abnt-etal-list=5, abnt-emphasize=bf,
+            abnt-etal-text=it, abnt-repeated-author-omit=no        ]{abntex2cite}
+
+\fancyhf{}
+\fancyhead[C]{\thepage}
+\pagestyle{fancy}
+\sloppy
+\singlespacing
+\newcommand{\C}{\emph{Cloud }}
+
+\title{Plano de Marketing: ORACLE \\
+Agosto, 2020
+}
+
+\author{
+    Israel Gonçalves de Oliveira (prof.israel@gmail.com) \\
+    MBA Executivo: Gestão com Ênfase em Liderança e Inovação \\
+    Turma: ONL020GI-ENFLICB01T1 \\
+    Professora Solimar Garcia}
+
+\begin{document} 
+
+\maketitle
+
+\begin{resumo} 
+A Oracle...
+\end{resumo}
+
+\begin{palavas-chave}
+    Palavra Chave 1, Palavra Chave 2.
+\end{palavas-chave}
+
+\section{Introdução}
+
+O presente documento tem como objetivo apresentar um plano estratégico de marketing visando a alavancagem do uso dos serviços de computação em nuvem da empresa de tecnologia Oracle no território brasileiro. Também é apresentado uma breve descrição da empresa e do serviços de computação em nuvem de  por ela prestados. São elencadas as principais características da empresa e do mercado, dados relevantes sobre a ambientação e uma análise \emph{SWOT}. Com efeito, é apresentado um conjuntos de ações (estratégia) de marketing visando o aumento da popularidade dos serviços da Oracle entre os profissionais da área de tecnologia, ou seja, visando um \emph{buzz} marketing dentro das empresas (para promover o B2B).
+
+\subsection{Breve história da Oracle}
+A \emph{Oracle Corporation} é uma multinacional com origem nos EUA, fundada em 1977 com o nome \emph{Software Development Laboratories} por Larry Ellison (1944), conselheiro executivo e atual CTO (\emph{chief technology officer}), Bob Miner (1941-1994), falecido por complicações devido a um câncer de pulmão, e Ed Oates (1946) atualmente atua como empresário e investidor (chegou a ser guitarrista e apresentou-se em shows). Pode-se resumir a história da Oracle olhando para o desenvolvimento de seu principal produto por décadas, seu sistema gerenciador de banco de dados relacional (SGBDR) - do inglês \emph{relational database management system} (RDBMS). Desenvolvido inicialmente como um projeto para a CIA (central de inteligência do governo dos EUA), o banco de dados foi evoluindo e liderando o mercado em vendas e inovação \cite{OracleCo5:online}. Seu reino foi soberano até a vinda do fenômeno do Big Data, perdendo espaço para os bancos não relacionais e destruídos \cite{NoSQLWi86:online}.
+
+Interessante que o projeto inicial do SGBDR foi uma ideia de um funcionário da IBM, a qual foi rejeitada \cite{DonodaOr98:online}:
+\begin{quotation}
+A ideia dos sócios era criar um sistema de gerenciamento de bancos de dados baseado em um estudo feito por um funcionário da IBM que acabou rejeitado, pois a gigante da informática não via nenhum potencial comercial no projeto. Ellison viu, e convenceu a CIA a apostar na ideia, conseguindo um contrato de dois anos para desenvolver a solução, que ele chamou de Oracle (nome com o qual ele viria a rebatizar sua própria companhia).
+\end{quotation}
+
+
+
+\subsection{Serviço alvo: \C}
+
+O serviço escolhido como alvo do presente plano de marketing é o chamado \C  (\emph{cloud computing} - computação na nuvem). Serviço de \C é a forma de disponibilizar recursos computacionais sob demanda, não apenas sites de internet, mas banco e processamento de dados, sistemas de autenticação e monitoramento etc. \cite{Computa60:online}. São alguns dos principais concorrentes da Oracle, a Amazon Web Services (AWS) \cite{AmazonWe34:online} e a Microsoft Azure \cite{Microsoft12:online}. 
+
+De acordo com o site oficial do serviço de \C da Oracle, dentre diversas alegações de superioridade de seus serviços em relação às concorrentes, duas são as que mais se destacam: serviço \C de segunda geração e por adotar padrões interoperáveis \cite{CloudInf85:online}. A primeira geração de serviço de \C (como a AWS e a Azure) oferece estrutura sob demanda (\emph{on-demand}), \emph{self-service} (liberdade no uso e na combinação entre serviços) e escalabilidade (caso haja necessidade de mais recursos, basta indicar o quanto que a disponibilidade desse é imediata). Agora, quanto a segunda geração, segundo definição da própria Oracle, oferece garantia de performance, previsibilidade de custos e maior controle dos recursos \cite{1WhytheW34:online}. 
+
+\subsection{IaaS, PaaS e SaaS}
+
+São os tipos deserviços oferecidos dentro do serviço de \C conhecidos por IaaS, PaaS e SaaS. O termo \emph{aaS} vem de "\emph{as a service}", ou "como um serviço". Isso significa que um determiando produto é oferecido e consumido como um serviço. De acordo com \citeonline{Saibaoqu72:online}, líder técnico de \C da IBM, Infraestrutura como Serviço (\emph{Infrastructure as a Service}) é como uma 
+\begin{quotation}
+(...) camada do sistema operacional e o provedor garante a disponibilidade e a confiabilidade da infraestrutura fornecida
+\end{quotation}
+e as
+\begin{quotation}
+(...) empresas que não são proprietárias de um data center veem o IaaS como uma infraestrutura rápida e barata para suas iniciativas de negócios que pode ser expandida ou encerrada, conforme necessário.
+\end{quotation}
+Quanto à Plataforma como serviço (\emph{IPlatform as a Service}), ainda de acordo com Barabas:
+\begin{quotation}
+Os provedores de PaaS publicam diversos serviços que podem ser consumidos dentro dos aplicativos. Esses serviços estarão sempre disponíveis e atualizados. O PaaS fornece uma forma muito simples de testar e fazer o protótipo de novos aplicativos. Ele pode economizar ao desenvolver novos serviços e aplicativos. Os aplicativos podem ser liberados mais rapidamente do que o usual para obter feedback do usuário.
+\end{quotation}
+Já, segundo Barabas, os serviços do tipo Software como serviço (\emph{Software as a Service}) 
+\begin{quotation}
+(...) são geralmente aceitos por diversas empresas que desejam se beneficiar do uso do aplicativo, sem a necessidade de manter e atualizar a infraestrutura e os componentes. Os aplicativos de e-mail, ERP, colaboração e escritório são as soluções SaaS mais aceitas. A flexibilidade e elasticidade do modelo de SaaS são grandes benefícios.
+\end{quotation}
+
+Em suma, software como serviço (SaaS) seria, por exemplo, a disponibilização de um portal de ensino EAD, como o Moodle, edX etc., softwares de gestão, como o Jira, ERPs etc., e outros. Quanto a plataforma como serviço (PaaS), é a disponibilização de um ecosistema de módulos compatíveis com os quais pode-se desenvolver soluções inteiras, não é o fornecimento de soluções prontas como no SaaS, mas o usuário pode unir os módulos para criar uma, sem se preocupar com a infraestrutura (recursos de hardware, rede, internet etc.). No caso de infraestrutura como serviço (IaaS), é disponibilizado os recursos de hardware, tais como computadores virtualizados (ou dedicados), redes privadas e os acessos a rede global (internet). Nisso, é muito comum as empresas adotarem soluções que envolvem diferentes tipos de serviços, como, por exemplo, um serviço peronalizado (como um software propriet
+ário) em um computador virtualizado (IaaS) fazendo consultas em um banco de dados como serviço (SaaS), tendo como processos genéricos secundários sendo estanciados sob demanda (PaaS). Pode obter mais detalhes sobre os tipos de serviços citados em \citeonline{SaaSvsPa6:online}. 
+
+\subsection{Objetivo}
+A Oracle presta todos serviços, a saber: SaaS, PaaS e IaaS \cite{OqueeOra85:online}. Seu forte em relação ás concorrentes está no PaaS e SaaS, enquanto está investindo e tentanto ser uma das principais prestadores de serviços IaaS. O foco do presente planejamento será em buscar maior aderência a todos os serviços da \C da Oracle apelando para os pontos fortes, a saber: SaaS e PaaS.
+
+\section{Levantamento de dados}
+
+\subsection{conhecimento do negócio}
+
+
+\section{Notas}
+profa dicas:
+"
+A ideia é apenas a proposta da estratégia, de quais ferramentas serão utilizadas.
+O conteúdo da apostila p. 86 a 94 trata da comunicação.
+"
+
+
+
+Em \citeonline{MarketingTeixeira} temos a definição de um plano de marketing:
+
+ORACLE DO BRASIL SISTEMAS LTDA \cite{OracleBr51:online}
+- Mercado alvo: brasileiro, mas com algumas porçoes do americanod (por smelhanças e por perfil deslocado no tempo)
+
+página 70 \cite{MarketingTeixeira}:
+- Onde estamos?
+- Para onde vamos?
+- Como chegaremos lá?
+
+P. 74.
+Levantamento de dados.
+
+p. 86
+Plano de comunicação integrada
+
+açoes:
+meetups, bootcamps, hands-ons
+fomenta o buzz/Marketing viral
+formaçao de profissioanis capacigtados no uso dos produtos e disseminadores
+
+\subsection{Guia sugerido:}
+
+Planejamento da pesquisa de marketing 93.
+
+\subsection{Tópicos}
+Para tanto:
+\begin{itemize}
+    \item escolha uma empresa e acesse o seu respectivo site;
+    \item explore todos os recursos desse site;
+    \item pesquise sobre a empresa na internet, observando se existem notícias, comentários, reclamações, tudo o que for possível saber sobre a empresa, e
+    \item elabore um plano de marketing para a empresa, de modo a adequar as atividades propostas pelo marketing às estratégias da empresa.
+\end{itemize}
+
+\subsection{Estrutura}
+
+O seu plano de marketing deve contemplar:
+\begin{itemize}
+    \item uma análise ambiental da empresa;
+    \item uma pesquisa de mercado e suposições quanto aos resultados encontrados;
+    \item uma análise competitiva e
+    \item uma proposta de comunicação de marketing. 
+\end{itemize}
+
+\section{Agradecimentos}
+Muito obrigado ao. 
+
+\addto{\captionsbrazil}{% caso use \usepackage[brazil]{babel}
+\renewcommand{\bibname}{Refer\^{e}ncias Teses}
+}
+\bibliographystyle{renote}
+\bibliography{References/references}
+
+\end{document}
